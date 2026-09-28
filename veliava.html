@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lietuvos ir Lenkijos vėliavos</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Antraščių stilius */
+      h2 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-family: sans-serif;
+      }
+
+      /* Vėliavų konteineris */
+      .veliava {
+        height: 300px;
+        width: 500px;
+        margin: 10pt auto 30pt auto; /* centravimas */
+      }
+
+      /* Lietuvos vėliavos spalvos ir juostos */
+      #geltona {
+        background-color: rgb(253, 185, 19);
+      }
+
+      #zalia {
+        background-color: rgb(0, 106, 68);
+      }
+
+      #raudona-lt {
+        background-color: rgb(193, 39, 45);
+      }
+
+      #geltona,
+      #zalia,
+      #raudona-lt {
+        height: 100px;
+      }
+
+      /* Lenkijos vėliavos spalvos ir juostos */
+      #veliava-pl {
+        border: 1px solid #ccc; /* Rėmelis, kad matytųsi balta spalva */
+      }
+
+      #balta {
+        background-color: rgb(255, 255, 255);
+      }
+
+      #raudona-pl {
+        background-color: rgb(193, 39, 45);
+      }
+
+      #balta,
+      #raudona-pl {
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Lietuvos vėliava -->
+    <h2>Lietuvos vėliava</h2>
+    <div class="veliava">
+      <div id="geltona"></div>
+      <div id="zalia"></div>
+      <div id="raudona-lt"></div>
+    </div>
+
+    <!-- Lenkijos vėliava -->
+    <h2>Lenkijos vėliava</h2>
+    <div class="veliava" id="veliava-pl">
+      <div id="balta"></div>
+      <div id="raudona-pl"></div>
+    </div>
+  </body>
+</html>
